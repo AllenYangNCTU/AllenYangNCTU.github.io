@@ -17,6 +17,8 @@
   <?php
   $dsn = "mysql:host=localhost;charset=utf8;dbname=portfolio";
   $pdo = new PDO($dsn, "root", "root");
+  // $dsn="mysql:host=localhost;charset=utf8;dbname=s1110222";
+  // $pdo=new PDO($dsn,'s1110222','s1110222');
   // print($_POST['name']);
   // print($_POST['email']);
   // print($_POST['subject']);
